@@ -1,4 +1,13 @@
 <p>This is the partial for view 2.</p>
+
+        <input type="text" ng-model="myvar">
+
+        <br/>
+
+        Du skriver: {{myvar | twodecimals}}
+
+        <hello-world/>
+
 <p>
   Showing of 'interpolate' filter:
   {{ 'Current version is v%VERSION%.' | interpolate }}
